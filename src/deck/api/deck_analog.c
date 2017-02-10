@@ -24,6 +24,7 @@
  * deck_analog.c - Arduino-compatible analog input implementation
  */
 
+#include <stm32f4xx_conf.h>
 #include "deck.h"
 
 #include "stm32fxxx.h"

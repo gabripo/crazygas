@@ -69,6 +69,7 @@ typedef struct __attribute__((packed))
 typedef struct __attribute__((packed))
 {
   AdcPair vbat;
+  AdcPair vtest;    //GAB
 } AdcGroup;
 
 typedef struct
@@ -116,5 +117,7 @@ void adcInterruptHandler(void);
  * ADC task
  */
 void adcTask(void *param);
+
+void bertoUpdate(AdcGroup* adcValues); //GAB - Update the test sensor
 
 #endif /* ADC_H_ */

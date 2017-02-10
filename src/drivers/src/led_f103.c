@@ -28,6 +28,8 @@
 #include "motors.h"
 
 #include <stdbool.h>
+#include <stm32f4xx_conf.h>
+#include <stm32f10x_conf.h>
 #include "stm32fxxx.h"
 
 /*FreeRtos includes*/
