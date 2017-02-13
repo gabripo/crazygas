@@ -55,7 +55,7 @@ int main()
 
   // CUSTOM TASK DEFINITION //GAB
   customTaskCreator();
-  
+
   //Start the FreeRTOS scheduler
   vTaskStartScheduler();
 

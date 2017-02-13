@@ -7,7 +7,7 @@
 
 #include <stdint.h>
 
-/* FreeRtos includes */
+/* FreeRTOS includes */
 #include "FreeRTOSConfig.h"
 #include "FreeRTOS.h"
 #include "task.h"
@@ -17,6 +17,12 @@
 
 // System waiting
 #include "system.h"
+
+// Including deck API
+#include "deck.h"
+
+// Including the processor tools
+#include "stm32fxxx.h"
 
 // Custom macros
 #define CTR_TASK_NAME           "CTR-TASK"

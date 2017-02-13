@@ -71,7 +71,6 @@
 
 
 #include "extrx.h"
-#include "dsp.h"    //GAB
 
 /* Private variable */
 static bool selftestPassed;
@@ -125,7 +124,6 @@ void systemInit(void)
   ledseqInit();
   pmInit();
   buzzerInit();
-  maciInit();   //GAB
 
   isInit = true;
 }
