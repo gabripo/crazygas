@@ -28,7 +28,9 @@ void customTask(void *arg) {
 
 		  // STARTING THE TASK
 
-
+		  // Starting to play a melody after 4 seconds
+		  vTaskDelay(M2T(4000));
+		  soundSetEffect((uint32_t) 11);
 
 		  // ENDING THE TASK
 
