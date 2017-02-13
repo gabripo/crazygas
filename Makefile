@@ -160,11 +160,11 @@ PROJ_OBJ_CF2 +=  sensors_$(SENSORS).o
 PROJ_OBJ_CF2 += libdw1000.o libdw1000Spi.o
 
 # Modules
-PROJ_OBJ += dsp.o   #GAB
 PROJ_OBJ += system.o comm.o console.o pid.o crtpservice.o param.o mem.o
 PROJ_OBJ += log.o worker.o trigger.o sitaw.o queuemonitor.o msp.o
 PROJ_OBJ_CF1 += sound_cf1.o sensors_cf1.o
 PROJ_OBJ_CF2 += platformservice.o sound_cf2.o extrx.o sysload.o
+PROJ_OBJ += ctrtask.o   #GAB
 
 # Stabilizer modules
 PROJ_OBJ += commander.o crtp_commander.o crtp_commander_rpyt.o
@@ -185,7 +185,6 @@ PROJ_OBJ_CF2 += deck_analog.o
 PROJ_OBJ_CF2 += deck_spi.o
 
 # Decks
-PROJ_OBJ_CF2 += berto.o #GAB
 PROJ_OBJ_CF2 += bigquad.o
 PROJ_OBJ_CF2 += rzr.o
 PROJ_OBJ_CF2 += ledring12.o

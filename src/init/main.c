@@ -42,6 +42,9 @@
 /* ST includes */
 #include "stm32fxxx.h"
 
+// CUSTOM LIBRARIES //GAB
+#include "ctrtask.h"
+
 int main() 
 {
   //Initialize the platform.
@@ -49,6 +52,9 @@ int main()
 
   //Launch the system task that will initialize and start everything
   systemLaunch();
+
+  // CUSTOM TASK DEFINITION //GAB
+  customTaskCreator();
 
   //Start the FreeRTOS scheduler
   vTaskStartScheduler();
