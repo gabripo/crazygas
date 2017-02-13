@@ -24,6 +24,9 @@
 // Including the processor tools
 #include "stm32fxxx.h"
 
+// Include melody lib
+#include "sound.h"
+
 // Custom macros
 #define CTR_TASK_NAME           "CTR-TASK"
 #define CTR_TASK_PRI            0
