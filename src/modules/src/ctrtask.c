@@ -34,6 +34,8 @@ void customTask(void *arg) {
 
 		  // Defining the pin input, referring to the deck_constants.h file - A0
 			pinMode(DECK_GPIO_TX2, INPUT);
+
+		  // Updating the value: remember that the read occurs ONLY when the analogRead is called!
 		  value = analogRead(DECK_GPIO_TX2);
 
 		  // Printing on the console (double conversion is mandatory because is the only allowed variable type from DEBUG_PRINT)
