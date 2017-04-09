@@ -24,6 +24,7 @@
  * uart2.c - uart2 driver
  */
 #include <string.h>
+#include <stm32f4xx_conf.h>
 
 /*ST includes */
 #include "stm32fxxx.h"

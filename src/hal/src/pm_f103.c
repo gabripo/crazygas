@@ -27,6 +27,8 @@
 #include "stm32fxxx.h"
 #include <string.h>
 #include <stdbool.h>
+#include <stm32f4xx_conf.h>
+#include <stm32f10x_conf.h>
 
 #include "FreeRTOS.h"
 #include "task.h"

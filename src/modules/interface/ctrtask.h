@@ -30,7 +30,7 @@
 // Custom macros
 #define CTR_TASK_NAME           "CTR-TASK"
 #define CTR_TASK_PRI            0
-#define PERIOD_SLEEP_TIME_IN_MS 500
+#define PERIOD_SLEEP_TIME_IN_MS 50
 
 // Function definitions
 void customTaskCreator(void);

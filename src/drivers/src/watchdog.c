@@ -26,6 +26,7 @@
  */
 #define DEBUG_MODULE "SYS"
 
+#include <stm32f4xx_conf.h>
 #include "debug.h"
 
 #include "watchdog.h"

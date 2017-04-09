@@ -24,6 +24,8 @@
  * uart1.c - uart1 driver
  */
 #include <string.h>
+#include <CMSIS/STM32F4xx/Include/stm32f4xx.h>
+#include <stm32f4xx_conf.h>
 
 /*FreeRtos includes*/
 #include "FreeRTOS.h"

@@ -23,6 +23,7 @@
  *
  * nvic.c - Contains all Cortex-M3 processor exceptions handlers
  */
+#include <stm32f4xx_conf.h>
 #include "exti.h"
 #include "led.h"
 #include "i2cdev.h"

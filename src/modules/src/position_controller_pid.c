@@ -63,7 +63,7 @@ struct this_s {
   uint16_t thrustMin;  // Minimum thrust value to output
 };
 
-// Maximum roll/pitch angle permited
+// Maximum roll/pitch angle permitted
 static float rpLimit  = 20;
 static float rpLimitOverhead = 1.10f;
 // Velocity maximums

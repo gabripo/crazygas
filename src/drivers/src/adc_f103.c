@@ -29,6 +29,8 @@
  *              page 69, with a Ts of 28.5 samples, 12-bit, and ADC@12
  *              the highest impedance to use is 25.2kOhm.
  */
+#include <stm32f4xx_conf.h>
+#include <stm32f10x_conf.h>
 #include "stm32fxxx.h"
 
 #include "FreeRTOS.h"

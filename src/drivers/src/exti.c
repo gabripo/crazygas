@@ -24,6 +24,7 @@
  * exti.c - Unified implementation of the exti interrupts
  */
 #include <stdbool.h>
+#include <stm32f4xx_conf.h>
 
 #include "stm32fxxx.h"
 

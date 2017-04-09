@@ -29,6 +29,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include <string.h>
+#include <interface/i2c_drv.h>
 
 #include "config.h"
 #include "debug.h"

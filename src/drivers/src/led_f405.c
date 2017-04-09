@@ -24,6 +24,7 @@
  * led.c - LED handing functions
  */
 #include <stdbool.h>
+#include <stm32f4xx_conf.h>
 
 #include "stm32fxxx.h"
 

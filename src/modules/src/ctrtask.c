@@ -1,5 +1,5 @@
 //
-// This program create the custom task to execute
+// This program creates the custom task to execute
 //
 
 #include "ctrtask.h"
